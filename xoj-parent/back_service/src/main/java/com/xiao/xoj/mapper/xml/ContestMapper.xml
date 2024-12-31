@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.xoj.mapper.ContestMapper">
+
+    <select id="getContestList" resultType="com.xiao.xoj.pojo.vo.ContestVO" useCache="true">
+        select
+            c.id,c.username,c.title,c.description,c.type,c.status,c.auth,
+            c.start_time,c.end_time,c.duration
+        from
+            contest c
+        <where>
+            <if test="keyword!=null and keyword!=''">
+                c.title like concat('%',#{keyword},'%')
+            </if>
+        </where>
+        order by c.status ASC, c.start_time DESC
+    </select>
+
+
+    <select id="getContestRegisterCount" resultType="com.xiao.xoj.pojo.vo.ContestRegisterCountVO">
+        SELECT
+            cr.cid as cid,
+            COUNT(*) as count
+        FROM contest_register cr,contest c
+        <where>
+            cr.cid = c.id
+            AND c.id in
+            <foreach collection="cidList" item="cid" open="(" separator="," close=")">
+                #{cid}
+            </foreach>
+        </where>
+        GROUP BY cr.cid
+    </select>
+
+
+    <select id="getContestInfoById" resultType="com.xiao.xoj.pojo.vo.ContestVO" useCache="true">
+        select
+            c.id,c.username,c.title,c.description,c.type,c.status,c.auth,
+            c.start_time,c.end_time,c.duration
+        from
+            contest c
+        where
+            c.id = #{cid}
+    </select>
+
+    <select id="getRecentContest" resultType="com.xiao.xoj.pojo.vo.ContestVO">
+        SELECT
+            c.id,c.username,c.title,c.description,c.type,c.status,c.auth,
+            c.start_time,c.end_time,c.duration
+        FROM
+            contest c
+        WHERE
+            DATE_ADD(CURDATE(), INTERVAL 14 DAY) >= DATE(start_time)
+            AND c.status != 1
+        order by
+            c.start_time DESC
+    </select>
+</mapper>

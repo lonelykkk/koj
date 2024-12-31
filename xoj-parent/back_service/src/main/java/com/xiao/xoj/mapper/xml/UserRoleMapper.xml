@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.xoj.mapper.UserRoleMapper">
+
+    <resultMap id="map_UserRoles" type="com.xiao.xoj.pojo.vo.UserRolesVO">
+        <id column="id" property="id"></id>
+        <result column="openid" property="openid"></result>
+        <result column="mobile" property="mobile"></result>
+        <result column="username" property="username"></result>
+        <result column="password" property="password"></result>
+        <result column="nickname" property="nickname"></result>
+        <result column="avatar" property="avatar"></result>
+        <result column="sign" property="sign"></result>
+        <result column="realname" property="realname"></result>
+        <result column="number" property="number"></result>
+        <result column="classe" property="classe"></result>
+        <result column="sex" property="sex"></result>
+        <result column="email" property="email"></result>
+        <result column="is_disabled" property="isDisabled"></result>
+        <result column="is_deleted" property="isDeleted"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+        <result column="gmt_modified" property="gmtModified"></result>
+        <collection property="roles" ofType="com.xiao.xoj.pojo.entity.user.Role">
+            <id column="role_id" property="id"></id>
+            <result column="name" property="name"></result>
+            <result column="description" property="description"></result>
+            <result column="role_is_deleted" property="isDeleted"></result>
+            <result column="role_gmt_create" property="gmtCreate"></result>
+            <result column="role_gmt_modified" property="gmtModified"></result>
+        </collection>
+    </resultMap>
+
+    <select id="getUserRoles" resultMap="map_UserRoles">
+        SELECT
+            u.*,
+            r.id as role_id,r.name as name,r.description as description,r.is_deleted as role_is_deleted,
+            r.gmt_create as role_gmt_create,r.gmt_modified as role_gmt_modified
+        FROM
+            user_info u
+        LEFT OUTER JOIN
+            user_role ur ON u.id=ur.user_id
+            LEFT JOIN role r ON ur.role_id = r.id
+        <where>
+            <if test="uid != null and uid != ''">
+                u.id = #{uid}
+            </if>
+            <if test="username != null and username != ''">
+                and u.username = #{username}
+            </if>
+        </where>
+
+    </select>
+
+    <select id="getRolesByUid" resultType="com.xiao.xoj.pojo.entity.user.Role">
+        select
+            r.*
+        from
+            role r,user_role ur
+        where r.id=ur.role_id and ur.user_id = #{uid}
+    </select>
+
+    <resultMap id="map_UserRolesList" type="com.xiao.xoj.pojo.vo.UserRolesVO">
+        <id column="id" property="id"></id>
+        <result column="openid" property="openid"></result>
+        <result column="mobile" property="mobile"></result>
+        <result column="username" property="username"></result>
+        <result column="password" property="password"></result>
+        <result column="nickname" property="nickname"></result>
+        <result column="avatar" property="avatar"></result>
+        <result column="sign" property="sign"></result>
+        <result column="realname" property="realname"></result>
+        <result column="number" property="number"></result>
+        <result column="classe" property="classe"></result>
+        <result column="sex" property="sex"></result>
+        <result column="email" property="email"></result>
+        <result column="is_disabled" property="isDisabled"></result>
+        <result column="is_deleted" property="isDeleted"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+        <result column="gmt_modified" property="gmtModified"></result>
+        <collection property="roles" ofType="com.xiao.xoj.pojo.entity.user.Role" select="getUserListRoles"
+                    column="userId=id">
+        </collection>
+    </resultMap>
+
+
+    <!-- 主查询  -->
+    <select id="getUserList" resultMap="map_UserRolesList" resultType="list">
+        SELECT u.* FROM user_info u
+        <where>
+            <if test="keyword!=null and keyword!=''">
+                u.username like CONCAT("%",#{keyword},"%")
+                or u.email like CONCAT("%",#{keyword},"%")
+                or u.realname like CONCAT("%",#{keyword},"%")
+                or u.number like CONCAT("%",#{keyword},"%")
+                or u.classe like CONCAT("%",#{keyword},"%")
+            </if>
+        </where>
+        order by u.gmt_create desc, u.id desc
+    </select>
+
+    <!-- 子查询 -->
+    <select id="getUserListRoles" resultType="com.xiao.xoj.pojo.entity.user.Role">
+        select  r.* from role r,user_role ur where ur.user_id=#{userId} and ur.role_id = r.id
+    </select>
+
+    <!-- 主查询 -->
+    <select id="getAdminUserList" resultMap="map_UserRolesList" resultType="list">
+        SELECT u.* FROM user_info u, (SELECT DISTINCT ur.user_id AS uid FROM user_role ur
+        WHERE ur.role_id=1 OR ur.role_id=2) t
+        <where>
+            t.uid = u.id
+            <if test="keyword!=null and keyword!=''">
+                and (u.username like CONCAT("%",#{keyword},"%")
+                or u.email like CONCAT("%",#{keyword},"%")
+                or u.realname like CONCAT("%",#{keyword},"%")
+                or u.number like CONCAT("%",#{keyword},"%")
+                or u.classe like CONCAT("%",#{keyword},"%"))
+            </if>
+        </where>
+        order by u.gmt_create desc, u.id desc
+    </select>
+
+</mapper>

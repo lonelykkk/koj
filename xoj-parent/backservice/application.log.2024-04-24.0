@@ -1,0 +1,1450 @@
+2024-04-24 03:44:26 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2024-04-24 03:44:26 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2024-04-24 03:44:26 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'judgeTaskAsyncPool'
+2024-04-24 03:44:26 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-24 03:44:26 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-24 19:45:53 [main] INFO  com.xiao.xoj.BackApplication - The following profiles are active: dev
+2024-04-24 19:45:59 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-24 19:45:59 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-24 19:45:59 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 Redis repository interfaces.
+2024-04-24 19:45:59 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=63bb19a0-22e3-3c72-9eae-1a152790f182
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.shiro.spring.config.web.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.config.web.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$27522969] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.xiao.xoj.config.AsyncTaskConfig$$EnhancerBySpringCGLIB$$82c878c8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.xiao.xoj.config.RedisConfig$$EnhancerBySpringCGLIB$$9c3dfe62] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisAutoConfig' of type [com.xiao.xoj.config.RedisAutoConfig$$EnhancerBySpringCGLIB$$e25cc1d1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jedisPool' of type [redis.clients.jedis.JedisPoolConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jedisConfig' of type [org.springframework.data.redis.connection.RedisStandaloneConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisUtils' of type [com.xiao.xoj.utils.RedisUtils] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtUtils' of type [com.xiao.xoj.utils.JwtUtils] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtFilter' of type [com.xiao.xoj.shiro.JwtFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.xiao.xoj.config.ShiroConfig$$EnhancerBySpringCGLIB$$516f7718] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myBatisPlusConfig' of type [com.xiao.xoj.config.MyBatisPlusConfig$$EnhancerBySpringCGLIB$$6fe044d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:00 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$3164f589] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:01 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:01 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$4a0f21eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:01 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:01 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:01 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myMetaObjectHandler' of type [com.xiao.xoj.handler.MyMetaObjectHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [com.sun.proxy.$Proxy107] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRoleMapper' of type [com.sun.proxy.$Proxy109] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userInfoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userInfoMapper' of type [com.sun.proxy.$Proxy110] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiro-redis.redis-manager-org.crazycake.shiro.RedisManagerProperties' of type [org.crazycake.shiro.RedisManagerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiro-redis.cache-manager-org.crazycake.shiro.CacheManagerProperties' of type [org.crazycake.shiro.CacheManagerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiro-redis.session-dao-org.crazycake.shiro.RedisSessionDAOProperties' of type [org.crazycake.shiro.RedisSessionDAOProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.crazycake.shiro.ShiroRedisAutoConfiguration' of type [org.crazycake.shiro.ShiroRedisAutoConfiguration$$EnhancerBySpringCGLIB$$36fcf05] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRoleServiceImpl' of type [com.xiao.xoj.service.impl.UserRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [com.sun.proxy.$Proxy111] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleServiceImpl' of type [com.xiao.xoj.service.impl.RoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userInfoServiceImpl' of type [com.xiao.xoj.service.impl.UserInfoServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'accountRealm' of type [com.xiao.xoj.shiro.AccountRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:06 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:06 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:06 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroFilterChainDefinition' of type [org.apache.shiro.spring.web.config.DefaultShiroFilterChainDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:06 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:06 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:46:07 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9001 (http)
+2024-04-24 19:46:07 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9001"]
+2024-04-24 19:46:07 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 19:46:07 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2024-04-24 19:46:08 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 19:46:08 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 14184 ms
+2024-04-24 19:46:09 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2024-04-24 19:46:09 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'judgeTaskAsyncPool'
+2024-04-24 19:46:10 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-04-24 19:46:10 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-04-24 19:46:10 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-04-24 19:46:10 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-04-24 19:46:10 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-04-24 19:46:11 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2024-04-24 19:46:14 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2024-04-24 19:46:14 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2024-04-24 19:46:14 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2024-04-24 19:46:14 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addAnnouncementUsingPOST_1
+2024-04-24 19:46:14 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteAnnouncementUsingDELETE_1
+2024-04-24 19:46:14 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAnnouncementListUsingGET_1
+2024-04-24 19:46:14 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAnnouncementUsingPUT_1
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getContestListUsingGET_1
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteDiscussionUsingDELETE_1
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateDiscussionUsingPUT_1
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getProblemListUsingGET_1
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getContestListUsingGET_2
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateProblemUsingPUT_1
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getResourceListUsingGET_1
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAwardsListUsingGET_1
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMemberListUsingGET_1
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTagUsingPOST_1
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2024-04-24 19:46:15 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: logoutUsingGET_1
+2024-04-24 19:46:15 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9001"]
+2024-04-24 19:46:15 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9001 (http) with context path ''
+2024-04-24 19:46:17 [main] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, xoj-back-service register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='localhost:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='xoj-back-service', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='10.100.30.42', networkInterface='', port=9001, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: failed to req API:localhost:8848/nacos/v1/ns/instance. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:191)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:207)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:64)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.xiao.xoj.BackApplication.main(BackApplication.java:24)
+2024-04-24 19:46:17 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9001"]
+2024-04-24 19:46:18 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-24 19:46:18 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9001"]
+2024-04-24 19:46:18 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9001"]
+2024-04-24 19:46:18 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-24 19:46:18 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'judgeTaskAsyncPool'
+2024-04-24 19:46:18 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: failed to req API:/nacos/v1/ns/instance after all servers([localhost:8848]) tried: failed to req API:localhost:8848/nacos/v1/ns/instance. code:500 msg: java.net.ConnectException: Connection refused: connect
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:467)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:389)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.registerService(NamingProxy.java:191)
+	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:207)
+	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:64)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.register(AbstractAutoServiceRegistration.java:239)
+	at com.alibaba.cloud.nacos.registry.NacosAutoServiceRegistration.register(NacosAutoServiceRegistration.java:76)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.start(AbstractAutoServiceRegistration.java:138)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.bind(AbstractAutoServiceRegistration.java:101)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:88)
+	at org.springframework.cloud.client.serviceregistry.AbstractAutoServiceRegistration.onApplicationEvent(AbstractAutoServiceRegistration.java:47)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.xiao.xoj.BackApplication.main(BackApplication.java:24)
+2024-04-24 19:48:46 [main] INFO  com.xiao.xoj.BackApplication - The following profiles are active: dev
+2024-04-24 19:48:47 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-04-24 19:48:47 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-04-24 19:48:47 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+2024-04-24 19:48:47 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=63bb19a0-22e3-3c72-9eae-1a152790f182
+2024-04-24 19:48:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.shiro.spring.config.web.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.config.web.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$1c076684] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'asyncTaskConfig' of type [com.xiao.xoj.config.AsyncTaskConfig$$EnhancerBySpringCGLIB$$777db5e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.xiao.xoj.config.RedisConfig$$EnhancerBySpringCGLIB$$90f33b7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisAutoConfig' of type [com.xiao.xoj.config.RedisAutoConfig$$EnhancerBySpringCGLIB$$d711feec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jedisPool' of type [redis.clients.jedis.JedisPoolConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jedisConfig' of type [org.springframework.data.redis.connection.RedisStandaloneConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.jedis.JedisConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisUtils' of type [com.xiao.xoj.utils.RedisUtils] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtUtils' of type [com.xiao.xoj.utils.JwtUtils] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtFilter' of type [com.xiao.xoj.shiro.JwtFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.xiao.xoj.config.ShiroConfig$$EnhancerBySpringCGLIB$$4624b433] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myBatisPlusConfig' of type [com.xiao.xoj.config.MyBatisPlusConfig$$EnhancerBySpringCGLIB$$649581ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'paginationInterceptor' of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$261a32a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [org.springframework.aop.scope.ScopedProxyFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$6676ccd7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:48 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myMetaObjectHandler' of type [com.xiao.xoj.handler.MyMetaObjectHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'rolePermissionMapper' of type [com.sun.proxy.$Proxy107] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRoleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRoleMapper' of type [com.sun.proxy.$Proxy109] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userInfoMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userInfoMapper' of type [com.sun.proxy.$Proxy110] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiro-redis.redis-manager-org.crazycake.shiro.RedisManagerProperties' of type [org.crazycake.shiro.RedisManagerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiro-redis.cache-manager-org.crazycake.shiro.CacheManagerProperties' of type [org.crazycake.shiro.CacheManagerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiro-redis.session-dao-org.crazycake.shiro.RedisSessionDAOProperties' of type [org.crazycake.shiro.RedisSessionDAOProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.crazycake.shiro.ShiroRedisAutoConfiguration' of type [org.crazycake.shiro.ShiroRedisAutoConfiguration$$EnhancerBySpringCGLIB$$f8250c20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisManager' of type [org.crazycake.shiro.RedisManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisSessionDAO' of type [org.crazycake.shiro.RedisSessionDAO] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRoleServiceImpl' of type [com.xiao.xoj.service.impl.UserRoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleMapper' of type [com.sun.proxy.$Proxy111] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'roleServiceImpl' of type [com.xiao.xoj.service.impl.RoleServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userInfoServiceImpl' of type [com.xiao.xoj.service.impl.UserInfoServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:50 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'accountRealm' of type [com.xiao.xoj.shiro.AccountRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroFilterChainDefinition' of type [org.apache.shiro.spring.web.config.DefaultShiroFilterChainDefinition] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 19:48:51 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9001 (http)
+2024-04-24 19:48:51 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9001"]
+2024-04-24 19:48:51 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 19:48:51 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2024-04-24 19:48:51 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 19:48:51 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5094 ms
+2024-04-24 19:48:52 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2024-04-24 19:48:52 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'judgeTaskAsyncPool'
+2024-04-24 19:48:52 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-04-24 19:48:52 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-04-24 19:48:52 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-04-24 19:48:52 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2024-04-24 19:48:52 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-04-24 19:48:53 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2024-04-24 19:48:55 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2024-04-24 19:48:55 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2024-04-24 19:48:55 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2024-04-24 19:48:55 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addAnnouncementUsingPOST_1
+2024-04-24 19:48:55 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteAnnouncementUsingDELETE_1
+2024-04-24 19:48:55 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAnnouncementListUsingGET_1
+2024-04-24 19:48:55 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAnnouncementUsingPUT_1
+2024-04-24 19:48:55 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getContestListUsingGET_1
+2024-04-24 19:48:55 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: deleteDiscussionUsingDELETE_1
+2024-04-24 19:48:55 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateDiscussionUsingPUT_1
+2024-04-24 19:48:56 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getProblemListUsingGET_1
+2024-04-24 19:48:56 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getContestListUsingGET_2
+2024-04-24 19:48:56 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateProblemUsingPUT_1
+2024-04-24 19:48:56 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getResourceListUsingGET_1
+2024-04-24 19:48:56 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAwardsListUsingGET_1
+2024-04-24 19:48:56 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getMemberListUsingGET_1
+2024-04-24 19:48:56 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: addTagUsingPOST_1
+2024-04-24 19:48:56 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: loginUsingPOST_1
+2024-04-24 19:48:56 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: logoutUsingGET_1
+2024-04-24 19:48:56 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9001"]
+2024-04-24 19:48:56 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9001 (http) with context path ''
+2024-04-24 19:48:56 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP xoj-back-service 10.100.30.42:9001 register finished
+2024-04-24 19:48:57 [main] INFO  com.xiao.xoj.BackApplication - Started BackApplication in 13.467 seconds (JVM running for 15.883)
+2024-04-24 19:49:16 [http-nio-9001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-24 19:49:16 [http-nio-9001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-24 19:49:16 [http-nio-9001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2024-04-24 19:52:45 [http-nio-9001-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-24 19:52:45 [http-nio-9001-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-24 20:41:33 [judgeExecutor-thread-1] INFO  xoj - handleWaitingTask current Thread: judgeExecutor-thread-1
+2024-04-24 20:41:35 [pool-1-thread-1] ERROR xoj - 判题请求失败，请求地址: http://127.0.0.1:9003/
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://127.0.0.1:9003/test-judge": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:751)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:421)
+	at com.xiao.xoj.manager.judge.JudgeReceiver.lambda$testJudge$1(JudgeReceiver.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:499)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:594)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:375)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:393)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1240)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1061)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:995)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:742)
+	... 10 common frames omitted
+2024-04-24 20:41:41 [judgeExecutor-thread-2] INFO  xoj - handleWaitingTask current Thread: judgeExecutor-thread-2
+2024-04-24 20:41:41 [http-nio-9001-exec-7] INFO  xoj - submitProblemJudge Thread:http-nio-9001-exec-7
+2024-04-24 20:41:41 [judgeExecutor-thread-2] INFO  xoj - defaultJudge Thread: judgeExecutor-thread-2
+2024-04-24 20:41:43 [pool-1-thread-1] ERROR xoj - 判题请求失败，请求地址: http://127.0.0.1:9003/
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://127.0.0.1:9003/judge": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:751)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:421)
+	at com.xiao.xoj.manager.judge.JudgeReceiver.lambda$defaultJudge$0(JudgeReceiver.java:162)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:499)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:594)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:375)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:393)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1240)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1061)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:995)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:742)
+	... 10 common frames omitted
+2024-04-24 20:41:58 [http-nio-9001-exec-1] INFO  xoj - submitProblemJudge Thread:http-nio-9001-exec-1
+2024-04-24 20:41:58 [judgeExecutor-thread-3] INFO  xoj - handleWaitingTask current Thread: judgeExecutor-thread-3
+2024-04-24 20:41:58 [judgeExecutor-thread-3] INFO  xoj - defaultJudge Thread: judgeExecutor-thread-3
+2024-04-24 20:42:00 [pool-1-thread-2] ERROR xoj - 判题请求失败，请求地址: http://127.0.0.1:9003/
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://127.0.0.1:9003/judge": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:751)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:421)
+	at com.xiao.xoj.manager.judge.JudgeReceiver.lambda$defaultJudge$0(JudgeReceiver.java:162)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:499)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:594)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:375)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:393)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1240)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1061)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:995)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:742)
+	... 10 common frames omitted
+2024-04-24 20:42:06 [judgeExecutor-thread-4] INFO  xoj - handleWaitingTask current Thread: judgeExecutor-thread-4
+2024-04-24 20:42:08 [pool-1-thread-1] ERROR xoj - 判题请求失败，请求地址: http://127.0.0.1:9003/
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://127.0.0.1:9003/test-judge": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:751)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:421)
+	at com.xiao.xoj.manager.judge.JudgeReceiver.lambda$testJudge$1(JudgeReceiver.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:499)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:594)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:375)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:393)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1240)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1061)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:995)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:742)
+	... 10 common frames omitted
+2024-04-24 20:42:11 [judgeExecutor-thread-5] INFO  xoj - handleWaitingTask current Thread: judgeExecutor-thread-5
+2024-04-24 20:42:13 [pool-1-thread-3] ERROR xoj - 判题请求失败，请求地址: http://127.0.0.1:9003/
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://127.0.0.1:9003/test-judge": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:751)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:677)
+	at org.springframework.web.client.RestTemplate.postForObject(RestTemplate.java:421)
+	at com.xiao.xoj.manager.judge.JudgeReceiver.lambda$testJudge$1(JudgeReceiver.java:199)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394)
+	at java.net.Socket.connect(Socket.java:606)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:499)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:594)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:375)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:393)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1240)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1167)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1061)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:995)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:742)
+	... 10 common frames omitted
+2024-04-24 20:42:29 [http-nio-9001-exec-5] ERROR AI Chat - AI 调用错误，error message： I/O error on POST request for "http://localhost:9004/send": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while QUIT
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.quit(BinaryJedis.java:472)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:160)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:768)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 13 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:768)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] ERROR redis.clients.jedis.JedisFactory - Error while validating pooled Jedis object.
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.flush(Connection.java:342)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:269)
+	at redis.clients.jedis.BinaryJedis.ping(BinaryJedis.java:381)
+	at redis.clients.jedis.JedisFactory.validateObject(JedisFactory.java:214)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:781)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.flush(Connection.java:339)
+	... 12 common frames omitted
+2024-04-24 22:15:53 [commons-pool-evictor-thread] WARN  redis.clients.jedis.JedisFactory - Error while close
+redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketException: Connection reset by peer: socket write error
+	at redis.clients.jedis.Connection.disconnect(Connection.java:256)
+	at redis.clients.jedis.BinaryClient.disconnect(BinaryClient.java:153)
+	at redis.clients.jedis.Connection.close(Connection.java:246)
+	at redis.clients.jedis.BinaryClient.close(BinaryClient.java:159)
+	at redis.clients.jedis.BinaryJedis.close(BinaryJedis.java:335)
+	at redis.clients.jedis.Jedis.close(Jedis.java:3960)
+	at redis.clients.jedis.JedisFactory.destroyObject(JedisFactory.java:166)
+	at org.apache.commons.pool2.impl.GenericObjectPool.destroy(GenericObjectPool.java:928)
+	at org.apache.commons.pool2.impl.GenericObjectPool.evict(GenericObjectPool.java:782)
+	at org.apache.commons.pool2.impl.BaseGenericObjectPool$Evictor.run(BaseGenericObjectPool.java:1138)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at redis.clients.jedis.util.RedisOutputStream.flushBuffer(RedisOutputStream.java:52)
+	at redis.clients.jedis.util.RedisOutputStream.flush(RedisOutputStream.java:133)
+	at redis.clients.jedis.Connection.disconnect(Connection.java:252)
+	... 16 common frames omitted
+2024-04-24 23:04:37 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m46s528ms525µs600ns).
+2024-04-24 23:41:38 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2024-04-24 23:41:38 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2024-04-24 23:41:38 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'judgeTaskAsyncPool'
+2024-04-24 23:41:38 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-24 23:41:38 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

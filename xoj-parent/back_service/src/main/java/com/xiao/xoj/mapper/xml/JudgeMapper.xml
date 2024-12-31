@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.xoj.mapper.JudgeMapper">
+
+    <resultMap id="map_submissionList" type="com.xiao.xoj.pojo.vo.JudgeVO">
+        <id column="user_id" property="uid"></id>
+        <result column="submit_id" property="submitId"></result>
+        <result column="display_id" property="displayId"></result>
+        <result column="submit_time" property="submitTime"></result>
+        <result column="run_time" property="time"></result>
+        <result column="run_memory" property="memory"></result>
+        <result column="code_length" property="length"></result>
+    </resultMap>
+
+    <select id="getSubmissionList" resultMap="map_submissionList" useCache="true">
+        select
+            j.user_id, j.submit_id, j.username, j.pid, j.display_id, j.submit_time,
+            j.status, j.run_time, j.run_memory, j.score, j.code_length, j.language,
+            j.cid, j.cpid, j.judger, j.ip
+        from judge j
+        <where>
+            j.cid = 0 and j.cpid = 0
+            <if test="userId != null and userId != ''">
+                and j.user_id = #{userId}
+            </if>
+            <if test="problemID != null">
+                and j.pid = #{problemID}
+            </if>
+        </where>
+        order by j.submit_time desc, j.submit_id desc
+    </select>
+
+
+    <select id="getContestProblemCount" resultType="com.xiao.xoj.pojo.vo.ProblemCountVO">
+        SELECT
+            COUNT(IF(status=-3,status,NULL)) AS pe,
+            COUNT(IF(status=-2,status,NULL)) AS ce,
+            COUNT(IF(status=-1,status,NULL)) AS wa,
+            COUNT(IF(status=0,status,NULL)) AS ac,
+            COUNT(IF(status=1,status,NULL)) AS tle,
+            COUNT(IF(status=2,status,NULL)) AS mle,
+            COUNT(IF(status=3,status,NULL)) AS re,
+            COUNT(IF(status=4,status,NULL)) AS se,
+            COUNT(IF(status=8,status,NULL)) AS pa,
+            COUNT(*) AS total
+        FROM
+            judge
+        <where>
+            pid=#{pid} and cid = #{cid}
+            <if test="startTime!=null">
+                and submit_time >= #{startTime}
+            </if>
+        </where>
+    </select>
+
+    <select id="getProblemCount" resultType="com.xiao.xoj.pojo.vo.ProblemCountVO">
+        SELECT
+            pid,
+            COUNT(IF(status=-3,status,NULL)) AS pe,
+            COUNT(IF(status=-2,status,NULL)) AS ce,
+            COUNT(IF(status=-1,status,NULL)) AS wa,
+            COUNT(IF(status=0,status,NULL)) AS ac,
+            COUNT(IF(status=1,status,NULL)) AS tle,
+            COUNT(IF(status=2,status,NULL)) AS mle,
+            COUNT(IF(status=3,status,NULL)) AS re,
+            COUNT(IF(status=4,status,NULL)) AS se,
+            COUNT(IF(status=8,status,NULL)) AS pa,
+            COUNT(*) AS total
+        FROM
+            judge
+        where
+            pid=#{pid}
+    </select>
+
+
+    <select id="getProblemListCount" resultType="com.xiao.xoj.pojo.vo.ProblemCountVO">
+        SELECT
+            pid,
+            COUNT(IF(STATUS=-3,STATUS,NULL)) AS pe,
+            COUNT(IF(STATUS=-2,STATUS,NULL)) AS ce,
+            COUNT(IF(STATUS=-1,STATUS,NULL)) AS wa,
+            COUNT(IF(STATUS=0,STATUS,NULL)) AS ac,
+            COUNT(IF(STATUS=1,STATUS,NULL)) AS tle,
+            COUNT(IF(STATUS=2,STATUS,NULL)) AS mle,
+            COUNT(IF(STATUS=3,STATUS,NULL)) AS re,
+            COUNT(IF(STATUS=4,STATUS,NULL)) AS se,
+            COUNT(IF(STATUS=8,STATUS,NULL)) AS pa,
+            COUNT(*) AS total
+        FROM judge
+        <where>
+            cid=0
+            <if test="pidList!=null and pidList.size > 0">
+                AND pid in
+                <foreach collection="pidList" item="pid" open="(" separator="," close=")">
+                    #{pid}
+                </foreach>
+            </if>
+        </where>
+        GROUP BY pid
+    </select>
+
+    <select id="getContestSubmissionList" resultType="com.xiao.xoj.pojo.vo.JudgeVO" useCache="true">
+        select
+            j.submit_id,j.submit_time,j.user_id as uid,j.username,
+            cp.display_id,cp.display_title as title,j.status,
+            j.run_time as time,j.run_memory as memory,j.score,
+            j.code_length as length,j.language,j.cid,j.cpid,j.judger
+        from
+            judge j
+        right join
+        (
+            select display_title,display_id,cid,pid from contest_problem
+            <where>
+                cid = #{cid}
+            </where>
+        ) cp
+        on j.pid = cp.pid AND j.cid = cp.cid
+        <where>
+            <if test="cid!=null">
+                AND j.cid = #{cid}
+            </if>
+            <if test="userId!=null and userId!=''">
+                AND j.user_id = #{userId}
+            </if>
+        </where>
+        order by
+            j.submit_time DESC,j.submit_id DESC
+    </select>
+
+
+    <select id="getProblemFinalCode" resultType="com.xiao.xoj.pojo.entity.judge.Judge" useCache="true">
+        select
+            j.*
+        from
+	        judge j
+        where
+            j.cid = #{cid} and j.user_id = #{userId}
+            and submit_time = (
+                select max(submit_time)
+                from judge j
+                where j.cid = #{cid} and j.user_id = #{userId}
+                group by j.display_id
+            )
+        order by
+            j.display_id asc
+    </select>
+</mapper>

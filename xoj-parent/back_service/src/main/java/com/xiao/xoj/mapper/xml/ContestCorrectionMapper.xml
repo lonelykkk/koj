@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.xoj.mapper.ContestCorrectionMapper">
+
+    <select id="getContestStudentInfo" resultType="com.xiao.xoj.pojo.vo.ContestStudentInfoVO">
+        select
+            cr.user_id as id, ui.username, ui.realname, ui.number, ui.classe, ui.sex
+        from
+            contest_register cr, user_info ui
+        WHERE
+            cr.user_id = ui.id and cr.cid = #{cid}
+            <if test="keyword != null and keyword != ''">
+                and (
+                    ui.username like concat('%', #{keyword}, '%')
+                    or ui.classe like concat('%', #{keyword}, '%')
+                )
+            </if>
+    </select>
+
+
+
+    <select id="getUserContestInfo" resultType="com.xiao.xoj.pojo.vo.UserContestInfoVO">
+        select
+            c.id, c.username, c.title, c.type, c.description, c.status, c.start_time, c.end_time
+        from
+            contest c, contest_register cr
+        where
+            cr.user_id = #{userId} and cr.cid = c.id
+    </select>
+
+</mapper>

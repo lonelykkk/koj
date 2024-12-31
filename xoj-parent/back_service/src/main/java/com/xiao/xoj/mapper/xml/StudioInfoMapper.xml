@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.xoj.mapper.StudioInfoMapper">
+
+    <select id="getMemberList" resultType="com.xiao.xoj.pojo.entity.about.StudioInfo">
+        select si.*
+        from studio_info si
+        <where>
+            <if test="keyword != null and keyword != ''">
+                sa.name like concat('%', #{keyword}, '%') or
+                sa.classes like concat('%', #{keyword}, '%')
+            </if>
+        </where>
+        order by which_session desc
+    </select>
+
+
+</mapper>

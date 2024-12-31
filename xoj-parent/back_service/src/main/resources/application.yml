@@ -1,0 +1,24 @@
+mybatis-plus:
+  type-aliases-package: com.xiao.xoj.pojo.entity
+  configuration:
+    cache-enabled: true
+    # 打印SQL日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 关闭打印 mybatis-plus 的 LOGO
+  global-config:
+    banner: false
+    db-config:
+      logic-delete-field: is_deleted
+  mapper-locations: classpath*:com/xiao/xoj/mapper/xml/**Mapper.xml
+
+# 消费者将要去访问的微服务名称（注册成功进入nacos的微服务提供者）
+#service-url:
+#  name: xoj-back-service # 服务名
+
+
+spring:
+  profiles:
+    active: prod
+  application:
+    name: xoj-back-service
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.xoj.mapper.DiscussionReportMapper">
+
+    <resultMap id="map_DiscussionReportVo" type="com.xiao.xoj.pojo.vo.DiscussionReportVO">
+        <id column="id" property="id"></id>
+        <result column="content" property="content"></result>
+        <result column="discussion_id" property="discussionId"></result>
+        <result column="title" property="discussionTitle"></result>
+        <result column="author" property="discussionAuthor"></result>
+        <result column="reporter" property="reporter"></result>
+        <result column="status" property="status"></result>
+        <result column="gmt_modified" property="gmtModified"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+    </resultMap>
+
+
+    <!-- 主查询  -->
+    <select id="getReportList" resultMap="map_DiscussionReportVo" resultType="com.xiao.xoj.pojo.vo.DiscussionReportVO">
+        select
+            dr.*,d.title,d.author, u.username as reporter
+        from
+            discussion_report dr
+        left join discussion d on dr.discussion_id = d.id
+        left join user_info u on u.id = dr.user_id
+        order by
+            dr.status asc
+    </select>
+
+</mapper>

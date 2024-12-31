@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.xoj.mapper.ContestProblemMapper">
+
+    <select id="getContestProblemList" resultType="com.xiao.xoj.pojo.vo.ContestProblemVO">
+        select
+            cp.id,cp.display_id,cp.cid,cp.pid,cp.display_title,
+            (select count(*) from judge
+            <where>
+                cpid=cp.id and cid=cp.cid and pid=cp.pid
+                AND submit_time >= #{startTime} AND #{endTime}>submit_time
+            </where>
+            ) as total,
+            (select count(*) from judge
+            <where>
+                cpid=cp.id and cid=cp.cid and pid =cp.pid and status=0
+                AND submit_time >= #{startTime} AND #{endTime}>submit_time
+            </where>
+            ) as ac
+        from
+            contest_problem cp,problem p
+        where
+            cp.cid = #{cid} and cp.pid=p.id and p.auth!=2
+        order by
+            cp.display_id asc
+    </select>
+
+</mapper>

@@ -1,0 +1,21 @@
+server:
+  port: 9003
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 'xiaoen789'
+    url: jdbc:mysql://localhost:3306/xoj?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true&rewriteBatchedStatements=true
+
+
+# 调用评测服务的token, default表示随机生成
+judge-token: default
+
+# 日志配置
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
+  file:
+    path: /xoj/log/judge_service

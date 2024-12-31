@@ -1,0 +1,10 @@
+server:
+  port: 9004
+
+# 日志配置
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
+  file:
+    path: /xoj/log/chat_service

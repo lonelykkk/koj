@@ -1,0 +1,6 @@
+2024-04-23 08:20:05 [http-nio-9001-exec-6] ERROR AI Chat - AI 调用错误，error message： I/O error on POST request for "http://localhost:9004/send": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2024-04-23 08:20:20 [http-nio-9001-exec-2] ERROR AI Chat - AI 调用错误，error message： I/O error on POST request for "http://localhost:9004/send": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2024-04-23 08:22:21 [http-nio-9001-exec-2] ERROR AI Chat - AI 调用错误，error message： AI 调用错误, 请重新尝试。
+2024-04-23 08:25:28 [http-nio-9001-exec-4] ERROR AI Chat - AI 调用错误，error message： AI 调用错误, 请重新尝试。
+2024-04-23 08:25:40 [http-nio-9001-exec-9] ERROR AI Chat - AI 调用错误，error message： AI 调用错误, 请重新尝试。
+2024-04-23 10:48:51 [http-nio-9001-exec-6] ERROR AI Chat - AI 调用错误，error message： AI 调用错误, 请重新尝试。

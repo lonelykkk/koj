@@ -1,0 +1,60 @@
+server:
+  port: 9001
+
+# token密钥，default表示随机生成
+jwt-token-secret: default
+# token过期时间 单位s
+jwt-token-expire: 86400
+# token可刷新的过期时间 单位s
+jwt-token-fresh-expire: 43200
+
+# 调用评测服务的token, default表示随机生成
+judge-token: default
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: xiaoen789
+    url: jdbc:mysql://localhost:3306/xoj?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true&rewriteBatchedStatements=true
+  redis:
+    # 数据库索引，默认为0
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    # 连接超时时间（ms）
+    timeout: 60000
+    jedis:
+      pool:
+        min-idle: 20  # 连接池中的最小空闲连接
+        max-idle: 50  # 连接池中的最大空闲连接
+        max-active: 200 # 连接池最大连接数（使用负值表示没有限制）
+        max-wait: -1  # 连接池最大阻塞等待时间（使用负值表示没有限制）
+  mail:
+    host: smtp.qq.com # 发送邮件服务器
+    username: 3219405547@qq.com
+    password: ikbivbothspydgie
+    protocol: smtp #发送邮件协议
+    port: 465
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
+
+#阿里云 OSS
+#不同的服务器，地址不同
+
+
+# 日志配置
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml
+  file:
+    path: /xoj/log/back_service

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.xoj.mapper.DiscussionMapper">
+
+    <resultMap id="map_DiscussionVo" type="com.xiao.xoj.pojo.vo.DiscussionVO">
+        <id column="id" property="id"></id>
+        <result column="content" property="content"></result>
+        <result column="description" property="description"></result>
+        <result column="title" property="title"></result>
+        <result column="category_id" property="categoryId"></result>
+        <result column="category_name" property="categoryName"></result>
+        <result column="problem_id" property="pid"></result>
+        <result column="user_id" property="uid"></result>
+        <result column="author" property="author"></result>
+        <result column="avatar" property="avatar"></result>
+        <result column="view_num" property="viewNum"></result>
+        <result column="like_num" property="likeNum"></result>
+        <result column="has_like" property="hasLike"></result>
+        <result column="top_priority" property="topPriority"></result>
+        <result column="is_disabled" property="isDisabled"></result>
+        <result column="gmt_modified" property="gmtModified"></result>
+        <result column="gmt_create" property="gmtCreate"></result>
+    </resultMap>
+
+
+    <!-- 主查询  -->
+    <select id="getDiscussion" resultMap="map_DiscussionVo" resultType="com.xiao.xoj.pojo.vo.DiscussionVO">
+        SELECT
+            d.*, c.id as category_id, c.name as category_name,
+            (
+                SELECT if(count(1) > 0, 1, 0) as has_like
+                FROM discussion_like dl
+                <where>
+                    <if test="uid == null or uid == ''">
+                        dl.user_id = ''
+                    </if>
+                    <if test="uid != null and uid != ''">
+                        dl.user_id = #{uid} AND dl.discussion_id = #{did}
+                    </if>
+                </where>
+            ) as has_like
+        FROM
+            discussion d
+        left join
+            category c
+        on
+            c.id = d.category_id
+        where
+            d.id=#{did}
+    </select>
+
+</mapper>

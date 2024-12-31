@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiao.xoj.mapper.RolePermissionMapper">
+
+    <select id="getAuthsByRid" resultType="com.xiao.xoj.pojo.entity.user.Permission">
+        select
+            p.*
+        from
+            permission p, role_permission rp
+        where
+            rp.role_id = #{rid} and rp.permission_id = p.id
+    </select>
+
+</mapper>
