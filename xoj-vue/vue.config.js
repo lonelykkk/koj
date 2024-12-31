@@ -9,7 +9,7 @@ module.exports = defineConfig({
     port: 6688,
     proxy: {
       '/api': {                                //   以'/api'开头的请求会被代理进行转发
-        target: 'http://127.0.0.1:9001',
+        target: 'http://localhost:9001',
         changeOrigin: true,
         pathRewrite: { // 地址重写
           '^/api': '/',

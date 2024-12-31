@@ -15,7 +15,7 @@
               赣ICP备2022006267号
             </a>
             Powered by
-            <a style="color:#1E9FFF" target="_blank">磐石工作室</a>
+            <a style="color:#1E9FFF" target="_blank">koj</a>
           </div>
         </div>
       </footer>
